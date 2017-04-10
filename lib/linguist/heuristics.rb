@@ -423,9 +423,14 @@ module Linguist
 
     disambiguate ".sol" do |data|
       if /^pragma solidity/.match(data)
+        # Solidity v0.4.0 and above
         Language["Solidity"]
       elsif /M02\*$/.match(data)
+        # Eagle solder
         Language["Eagle"]
+      else
+        # not-a-language
+        [nil]
       end
     end
 
