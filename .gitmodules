@@ -836,3 +836,6 @@
 [submodule "vendor/grammars/marko-tmbundle"]
 	path = vendor/grammars/marko-tmbundle
 	url = https://github.com/marko-js/marko-tmbundle
+[submodule "vendor/grammars/language-ethereum"]
+	path = vendor/grammars/language-ethereum
+	url = https://github.com/caktux/language-ethereum
