@@ -4121,6 +4121,7 @@ Solidity:
   extensions:
   - ".sol"
   tm_scope: source.solidity
+  language_id: 237469032
 SourcePawn:
   type: programming
   color: "#5c7611"
